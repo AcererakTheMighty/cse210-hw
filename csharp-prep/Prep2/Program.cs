@@ -8,9 +8,9 @@ class Program
         string valueFromUser = Console.ReadLine();
 
         int x = int.Parse(valueFromUser);
-        int y = 2'
+        int y = 2;
 
-        if (x > y);
+        if (x > y)
         {
             Console.WriteLine("Greater");
         }
