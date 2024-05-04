@@ -13,9 +13,9 @@ class Program
         {
             Console.WriteLine("\nMenu:");
             Console.WriteLine("1. Write a new entry");
-            Console.WriteLine("2. Display the journal");
-            Console.WriteLine("3. Save the journal to a file");
-            Console.WriteLine("4. Load the journal from a file");
+            Console.WriteLine("2. Display your journal");
+            Console.WriteLine("3. Save your journal to a file");
+            Console.WriteLine("4. Load your journal from a file");
             Console.WriteLine("5. Exit");
             Console.Write("Enter your choice: ");
             string choice = Console.ReadLine();
@@ -49,7 +49,7 @@ class Program
         string[] prompts = {
             "Who was the most interesting person I interacted with today?",
             "What was the best part of my day?",
-            "How did I see the hand of the Lord in my life today?",
+            "How long did you study machine learning today?",
             "What was the strongest emotion I felt today?",
             "If I had one thing I could do over today, what would it be?"
         };
