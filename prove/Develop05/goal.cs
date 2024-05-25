@@ -1,6 +1,5 @@
 using System;
 
-[Serializable]
 abstract class Goal
 {
     public string Name { get; set; }

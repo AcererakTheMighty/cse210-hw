@@ -1,6 +1,5 @@
 using System;
 
-[Serializable]
 class ChecklistGoal : Goal
 {
     public int TargetCount { get; set; }

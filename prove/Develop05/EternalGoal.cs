@@ -1,6 +1,5 @@
 using System;
 
-[Serializable]
 class EternalGoal : Goal
 {
     public EternalGoal(string name, int points) : base(name, points) { }
